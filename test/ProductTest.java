@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
-
+// comment
 class ProductTest {
 
     private Product tv42Inches, tv50Inches, tv60Inches, noNameProduct;

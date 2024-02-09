@@ -55,9 +55,18 @@ public class Product {
         this.inCurrentProductLine = inCurrentProductLine;
    }
 
-
+   public String toString() {
+       return "Product description: " + productName
+               + ", product code: " + productCode
+               + ", unit cost: " + unitCost
+               + ", currently in product line: " + (inCurrentProductLine ? 'Y' : 'N');
+   }
 
    }
+
+
+
+
 
 
 

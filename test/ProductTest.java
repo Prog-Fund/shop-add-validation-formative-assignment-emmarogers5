@@ -19,6 +19,7 @@ class ProductTest {
         tv60Inches = new Product("Television 60 Inches.", 5001, 245.99, false);
         //name 0 chars
         noNameProduct = new Product(null, 5000, 0, false);
+
     }
 
     @AfterEach

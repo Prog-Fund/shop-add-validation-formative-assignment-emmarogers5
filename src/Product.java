@@ -36,6 +36,12 @@ public class Product {
         return inCurrentProductLine;
     }
 
+    public void setProductCode(int productCode){
+        if((productCode >= 1000) && (productCode <= 5000)) {
+           this.productCode = productCode;
+        }
+    }
+
 
    public void setProductName(String productName){
         if(productName != null){

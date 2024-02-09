@@ -20,7 +20,23 @@ public class Product {
         setUnitCost(unitCost);
         this.inCurrentProductLine = inCurrentProductLine;
     }
+
+    public String getProductName(){
+    return productName;
+    }
+
+    public double getUnitCost(){
+        return unitCost;
+    }
+
+    public int getProductCode(){
+        return productCode;
+    }
+    public boolean isInCurrentProductLine(){
+        return inCurrentProductLine;
+    }
 }
+
 
 
 

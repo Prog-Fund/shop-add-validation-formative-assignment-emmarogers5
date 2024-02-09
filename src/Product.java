@@ -35,7 +35,29 @@ public class Product {
     public boolean isInCurrentProductLine(){
         return inCurrentProductLine;
     }
-}
+
+
+   public void setProductName(String productName){
+        if(productName != null){
+            if(productName.length() <= 20){
+                this.productName =productName;
+            }
+        }
+   }
+
+   public void setUnitCost(double unitCost) {
+        if((unitCost > 0) && (unitCost <= 99999)){
+            this.unitCost = unitCost;
+        }
+   }
+
+   public void setInCurrentProductLine(boolean inCurrentProductLine){
+        this.inCurrentProductLine = inCurrentProductLine;
+   }
+
+
+
+   }
 
 
 
